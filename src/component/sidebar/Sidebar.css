@@ -1,0 +1,38 @@
+.sidebarContainer{
+    background: var(--backgroundTop);
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Top part of side bar */
+.sidebarTop{
+    margin-top: 20px;
+}
+.sidebarTop .sidebarLogo{
+    height: 11vh;
+    /* height: 90px; */
+    width: 26vh;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+
+/* Middle part of sidebar */
+.sidebarMiddle{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    top:-26vh;
+}
+.middleItems{
+    display: flex;
+    gap: 0.8rem;
+    color: #9498a9;
+}
+
+
